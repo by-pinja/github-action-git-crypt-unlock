@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: Unlock secrets
-        uses: sliteteam/github-action-git-crypt-unlock@1.2.0
+        uses: by-pinja/github-action-git-crypt-unlock@1.2.0
         env:
           GIT_CRYPT_KEY: ${{ secrets.GIT_CRYPT_KEY }}
 ```
